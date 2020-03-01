@@ -46,7 +46,11 @@ p {
 }
 
 @media (max-width:764px) {
+  p, .middle-txt {
+    padding: 20px;
+  }
+
   .middle-txt {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
