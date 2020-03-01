@@ -33,7 +33,7 @@ p {
 }
 
 .text-container {
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,5 +53,6 @@ p {
 
   .middle-txt {
     font-size: 4rem;
+    line-height: 60px;
   }
 }
