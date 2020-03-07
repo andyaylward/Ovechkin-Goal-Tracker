@@ -10,7 +10,9 @@ request1920.onload = function() {
   console.log("Ovi Total Goals: " + (658 + Goals1920));
   goals = document.getElementById("goals");
   goals.innerHTML = 895 - (658 + Goals1920);
+
   console.log(Goals1920);
+
 }
 
 request1920.send()
